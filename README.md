@@ -4,10 +4,6 @@
 
 This repository accompanies the manuscript introducing **CAD-HMP**, a dual-hypergraph multitask learning framework for treatment-specific prognosis estimation in coronary artery disease.
 
-## Code availability
-
-This repository currently provides project documentation and selected manuscript figures. The full source code and instructions for reproducing the study will be publicly released in this repository following acceptance of the manuscript.
-
 ## Overview
 
 CAD-HMP integrates structured electronic health records (EHRs), clinical text, guideline knowledge and patient-derived evidence to compare three treatment strategies: medical management without revascularization (**MEDICAL**), coronary artery bypass grafting (**CABG**) and percutaneous coronary intervention (**PCI**). For each strategy, it estimates 30-day mortality, severe acute kidney injury (AKI), major bleeding and remaining hospital length of stay (LOS).
