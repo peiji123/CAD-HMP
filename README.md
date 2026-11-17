@@ -8,7 +8,7 @@ This repository accompanies the manuscript introducing **CAD-HMP**, a dual-hyper
 
 CAD-HMP integrates structured electronic health records (EHRs), clinical text, guideline knowledge and patient-derived evidence to compare three treatment strategies: medical management without revascularization (**MEDICAL**), coronary artery bypass grafting (**CABG**) and percutaneous coronary intervention (**PCI**). For each strategy, it estimates 30-day mortality, severe acute kidney injury (AKI), major bleeding and remaining hospital length of stay (LOS).
 
-![CAD-HMP framework](figures/figure1_framework.png)
+![CAD-HMP framework](figure1_framework.png)
 
 *Figure 1. Workflow from patient-state construction and dual-hypergraph evidence integration to treatment-specific predictions and supporting evidence. Reproduced from manuscript Fig. 1.*
 
@@ -25,7 +25,7 @@ Treatment probabilities reflect observed care patterns. Predictions for unreceiv
 
 The retrospective study includes 9,639 training patients and 2,378 internal-test patients from MIMIC-IV, plus 2,058 external-test patients from MIMIC-III CareVue. Treatment-classification macro-AUCs are **0.939** internally and **0.860** externally. Pooled factual-outcome AUCs are **0.894** for mortality, **0.878** for severe AKI and **0.839** for major bleeding.
 
-![Treatment classification and factual outcome prediction performance](figures/figure2_performance.png)
+![Treatment classification and factual outcome prediction performance](figure2_performance.png)
 
 *Figure 2. Treatment classification in the internal and external test cohorts (a,b), and factual outcome prediction in the pooled test cohorts (c–f). Reproduced from manuscript Fig. 2; outcome evaluation uses the observed-treatment branch.*
 
